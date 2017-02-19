@@ -1,0 +1,57 @@
+# In repository we don't need to have:
+# Compiled object files, binaries, libs
+# Built windows .exe and linux binaries
+# NOTE: DataCruncher is a your project's name, analog of DataCruncher.exe in Linux
+*.exe
+*.dll
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Generated MOC, resource and UI files
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+
+# QtCreator
+
+*.autosave
+
+# QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCtreator CMake
+CMakeLists.txt.user*
+
+# Debug and Release directories (created under Windows, not Linux)
+Debug/
+Release/
+
+# .log files (usually created by QtTest)
+*.log
+
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+# Mac-specific things 
+.DS_Store
+
+# Editors temporary files 
+*~
